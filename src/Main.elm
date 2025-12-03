@@ -19,20 +19,13 @@ main =
                         [ { name = "Ed", id = 1 }
                         , { name = "Simon", id = 2 }
                         , { name = "Christian", id = 3 }
-                        , { name = "Simon2", id = 2234 }
-                        , { name = "Christian2", id = 3000 }
                         ]
                     , userId = 1
                     , projects =
                         [ { projectName = "yafl", id = 1 }
                         , { projectName = "safe-virtual-dom", id = 2 }
                         , { projectName = "elm-form", id = 3 }
-                        , { projectName = "0yafl", id = 4 }
-                        , { projectName = "1safe-virtual-dom", id = 5 }
-                        , { projectName = "2elm-form", id = 6 }
-                        , { projectName = "3yafl", id = 7 }
-                        , { projectName = "4safe-virtual-dom", id = 8 }
-                        , { projectName = "5elm-form", id = 9 }
+                      
                         ]
                     , projectId = 2
                     }
