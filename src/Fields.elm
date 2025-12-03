@@ -71,7 +71,7 @@ user =
         , toHtml = viewUser
         }
         |> Y.identifier "user"
-        |> Y.label "Which user did the majority of the work?"
+        |> Y.label "Which user?"
 
 
 project : Y.Field FormModel FormMsg Y.HasId (WS.SelectMsg Project) (WS.SelectMsg Project) Project
@@ -84,4 +84,4 @@ project =
         , toHtml = viewProject
         }
         |> Y.identifier "project"
-        |> Y.label "Which project is the allocation for?"
+        |> Y.label "Which project?"
