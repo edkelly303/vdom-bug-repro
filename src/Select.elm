@@ -210,8 +210,8 @@ viewItems config model label =
                 ]
                 (List.map (viewItem config model label) filtered)
 
-            -- TO FIX, COMMENT OUT THE LINES ABOVE AND UNCOMMENT THIS:
-            --   HK.node id
+            --TO FIX, COMMENT OUT THE LINES ABOVE AND UNCOMMENT THIS:
+            -- [ HK.node id
             --     [ HA.class "yafl-select-list"
             --     , HA.id id
             --     ]
